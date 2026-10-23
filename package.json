@@ -1,0 +1,46 @@
+{
+  "name": "shri-datta-niwas-2",
+  "private": true,
+  "version": "1.0.0",
+  "type": "module",
+  "description": "Website for Shri Datta Niwas 2 (Satarkar) — a calm, family-run lodging.",
+  "scripts": {
+    "dev": "vite",
+    "build": "tsc -b && vite build",
+    "preview": "vite preview",
+    "lint": "eslint .",
+    "typecheck": "tsc -b",
+    "format": "prettier --write \"src/**/*.{ts,tsx,css,json}\" \"*.{ts,md}\""
+  },
+  "dependencies": {
+    "@hookform/resolvers": "^3.9.1",
+    "framer-motion": "^11.11.17",
+    "i18next": "^23.16.8",
+    "lenis": "^1.1.14",
+    "lucide-react": "^0.462.0",
+    "react": "^18.3.1",
+    "react-dom": "^18.3.1",
+    "react-helmet-async": "^2.0.5",
+    "react-hook-form": "^7.53.2",
+    "react-i18next": "^15.1.1",
+    "react-router-dom": "^6.28.0",
+    "zod": "^3.23.8"
+  },
+  "devDependencies": {
+    "@eslint/js": "^9.15.0",
+    "@tailwindcss/vite": "^4.1.0",
+    "@types/node": "^22.9.0",
+    "@types/react": "^18.3.12",
+    "@types/react-dom": "^18.3.1",
+    "@vitejs/plugin-react": "^6.1.2",
+    "eslint": "^9.15.0",
+    "eslint-plugin-react-hooks": "^5.0.0",
+    "eslint-plugin-react-refresh": "^0.4.14",
+    "globals": "^15.12.0",
+    "prettier": "^3.3.3",
+    "tailwindcss": "^4.1.0",
+    "typescript": "~5.6.3",
+    "typescript-eslint": "^8.15.0",
+    "vite": "^8.3.5"
+  }
+}

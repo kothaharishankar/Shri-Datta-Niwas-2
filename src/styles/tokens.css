@@ -1,0 +1,65 @@
+/* ─────────────────────────────────────────────────────────────
+   Shri Datta Niwas 2 — colour tokens
+   Light is warm ivory paper; dark is the same house at night.
+   ───────────────────────────────────────────────────────────── */
+
+:root {
+  color-scheme: light;
+
+  /* Brand constants */
+  --brand-ink: #14122b;
+  --brand-marigold: #f4a51c;
+  --brand-saffron: #d9622b;
+  --brand-ivory: #fbf6ea;
+  --brand-sage: #7c9a8b;
+
+  /* Semantic — light */
+  --bg: #fbf6ea;
+  --bg-soft: #f3ead6;
+  --surface: #fffdf6;
+  --surface-raised: #ffffff;
+  --text: #1b1838;
+  --text-muted: #5c5772;
+  --line: rgba(27, 24, 56, 0.14);
+  --line-strong: rgba(27, 24, 56, 0.28);
+  --accent: #b8461a;
+  --accent-quiet: #8a3413;
+  --on-accent: #fffaf0;
+  --accent-soft: rgba(244, 165, 28, 0.18);
+
+  --glow-warm: rgba(244, 165, 28, 0.34);
+  --glow-clay: rgba(217, 98, 43, 0.16);
+  --glow-sage: rgba(124, 154, 139, 0.16);
+
+  --sdn-shadow-soft: 0 1px 2px rgba(27, 24, 56, 0.05), 0 12px 32px -12px rgba(27, 24, 56, 0.18);
+  --sdn-shadow-lift: 0 2px 4px rgba(27, 24, 56, 0.06), 0 24px 56px -20px rgba(27, 24, 56, 0.3);
+
+  --sdn-font-display: 'Fraunces', 'Noto Sans Telugu', 'Noto Sans Devanagari', ui-serif, Georgia,
+    'Times New Roman', serif;
+  --sdn-font-body: 'DM Sans', 'Noto Sans Telugu', 'Noto Sans Devanagari', ui-sans-serif, system-ui,
+    -apple-system, 'Segoe UI', sans-serif;
+}
+
+.dark {
+  color-scheme: dark;
+
+  --bg: #0c0b19;
+  --bg-soft: #131128;
+  --surface: #171531;
+  --surface-raised: #1e1b3b;
+  --text: #f7f1e5;
+  --text-muted: #aaa4c1;
+  --line: rgba(247, 241, 229, 0.13);
+  --line-strong: rgba(247, 241, 229, 0.3);
+  --accent: #f4a51c;
+  --accent-quiet: #f6bd5a;
+  --on-accent: #1b1204;
+  --accent-soft: rgba(244, 165, 28, 0.16);
+
+  --glow-warm: rgba(244, 165, 28, 0.22);
+  --glow-clay: rgba(217, 98, 43, 0.14);
+  --glow-sage: rgba(124, 154, 139, 0.12);
+
+  --sdn-shadow-soft: 0 1px 2px rgba(0, 0, 0, 0.25), 0 16px 40px -16px rgba(0, 0, 0, 0.65);
+  --sdn-shadow-lift: 0 2px 4px rgba(0, 0, 0, 0.3), 0 28px 64px -22px rgba(0, 0, 0, 0.75);
+}

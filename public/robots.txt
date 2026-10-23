@@ -1,0 +1,5 @@
+User-agent: *
+Allow: /
+Disallow: /404
+
+# Add a Sitemap URL here after the production domain is known.

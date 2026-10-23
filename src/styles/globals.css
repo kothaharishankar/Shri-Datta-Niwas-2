@@ -1,0 +1,239 @@
+@import 'tailwindcss';
+@import './tokens.css';
+
+/* Dark mode is class-based so the theme toggle can override the system. */
+@custom-variant dark (&:where(.dark, .dark *));
+
+@theme inline {
+  --color-bg: var(--bg);
+  --color-bg-soft: var(--bg-soft);
+  --color-surface: var(--surface);
+  --color-surface-raised: var(--surface-raised);
+  --color-ink: var(--text);
+  --color-muted: var(--text-muted);
+  --color-line: var(--line);
+  --color-line-strong: var(--line-strong);
+  --color-accent: var(--accent);
+  --color-accent-quiet: var(--accent-quiet);
+  --color-on-accent: var(--on-accent);
+  --color-accent-soft: var(--accent-soft);
+
+  --color-marigold: #f4a51c;
+  --color-saffron: #d9622b;
+  --color-sage: #7c9a8b;
+  --color-indigo-ink: #14122b;
+  --color-ivory: #fbf6ea;
+
+  --font-display: var(--sdn-font-display);
+  --font-sans: var(--sdn-font-body);
+
+  --shadow-soft: var(--sdn-shadow-soft);
+  --shadow-lift: var(--sdn-shadow-lift);
+
+  --ease-out-soft: cubic-bezier(0.22, 1, 0.36, 1);
+}
+
+/* ── Base ─────────────────────────────────────────────────── */
+
+html {
+  position: relative;
+  -webkit-text-size-adjust: 100%;
+  text-rendering: optimizeLegibility;
+}
+
+body {
+  background-color: var(--bg);
+  color: var(--text);
+  font-family: var(--sdn-font-body);
+  font-size: 1rem;
+  line-height: 1.6;
+  -webkit-font-smoothing: antialiased;
+  overflow-x: hidden;
+  transition:
+    background-color 0.45s ease,
+    color 0.45s ease;
+}
+
+::selection {
+  background: var(--brand-marigold);
+  color: #24180a;
+}
+
+:focus-visible {
+  outline: 2px solid var(--accent);
+  outline-offset: 3px;
+  border-radius: 4px;
+}
+
+/* ── Typography helpers ───────────────────────────────────── */
+
+.display {
+  font-family: var(--sdn-font-display);
+  font-weight: 400;
+  font-variation-settings:
+    'SOFT' 40,
+    'WONK' 1;
+  letter-spacing: -0.025em;
+  line-height: 1.02;
+}
+
+.display em,
+.display .em {
+  font-style: italic;
+  font-variation-settings:
+    'SOFT' 100,
+    'WONK' 1;
+  color: var(--accent);
+}
+
+.eyebrow {
+  font-size: 0.72rem;
+  letter-spacing: 0.22em;
+  text-transform: uppercase;
+  font-weight: 500;
+}
+
+.section-intro {
+  color: var(--text);
+  font-size: 1.125rem;
+  font-weight: 600;
+  line-height: 1.65;
+}
+
+.hero-tagline {
+  color: var(--accent);
+}
+
+html[lang='te'] .display,
+html[lang='hi'] .display,
+html[lang='mr'] .display {
+  letter-spacing: 0;
+  line-height: 1.18;
+  font-weight: 500;
+}
+
+html[lang='te'] body,
+html[lang='hi'] body,
+html[lang='mr'] body {
+  line-height: 1.72;
+}
+
+/* ── Ambient "lamp light" ─────────────────────────────────── */
+
+.lamp {
+  position: absolute;
+  border-radius: 9999px;
+  pointer-events: none;
+  filter: blur(40px);
+  background: radial-gradient(
+    circle at center,
+    var(--glow-warm) 0%,
+    var(--glow-clay) 42%,
+    transparent 72%
+  );
+}
+
+.lamp-sage {
+  background: radial-gradient(circle at center, var(--glow-sage) 0%, transparent 70%);
+}
+
+.home-page-background {
+  overflow-x: clip;
+  background-color: var(--bg);
+  background-image:
+    linear-gradient(
+      color-mix(in srgb, var(--bg) 72%, transparent),
+      color-mix(in srgb, var(--bg) 82%, transparent)
+    ),
+    url('/images/home-background.webp');
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-attachment: fixed;
+}
+
+/* ── Surfaces ─────────────────────────────────────────────── */
+
+.glass {
+  background: color-mix(in srgb, var(--bg) 76%, transparent);
+  -webkit-backdrop-filter: blur(18px) saturate(1.15);
+  backdrop-filter: blur(18px) saturate(1.15);
+  border-bottom: 1px solid var(--line);
+}
+
+.card {
+  background: var(--surface);
+  border: 1px solid var(--line);
+  border-radius: 1.25rem;
+  box-shadow: var(--sdn-shadow-soft);
+}
+
+.hairline {
+  border-color: var(--line);
+}
+
+/* ── Sketchy "rangoli" divider animation ──────────────────── */
+
+@keyframes draw-line {
+  from {
+    stroke-dashoffset: 1400;
+  }
+  to {
+    stroke-dashoffset: 0;
+  }
+}
+
+.divider-path {
+  stroke-dasharray: 1400;
+  animation: draw-line 2.6s var(--ease-out-soft) forwards;
+}
+
+/* ── Utility ──────────────────────────────────────────────── */
+
+.text-balance {
+  text-wrap: balance;
+}
+
+.no-scrollbar {
+  scrollbar-width: none;
+}
+.no-scrollbar::-webkit-scrollbar {
+  display: none;
+}
+
+.mask-fade-x {
+  -webkit-mask-image: linear-gradient(to right, transparent, black 6%, black 94%, transparent);
+  mask-image: linear-gradient(to right, transparent, black 6%, black 94%, transparent);
+}
+
+.blur-in {
+  filter: blur(18px);
+  transform: scale(1.04);
+  transition:
+    filter 0.9s var(--ease-out-soft),
+    transform 0.9s var(--ease-out-soft);
+}
+.blur-in.is-loaded {
+  filter: blur(0);
+  transform: scale(1);
+}
+
+/* Respect the reader's motion preference everywhere. */
+@media (prefers-reduced-motion: reduce) {
+  *,
+  *::before,
+  *::after {
+    animation-duration: 0.001ms !important;
+    animation-iteration-count: 1 !important;
+    transition-duration: 0.001ms !important;
+    scroll-behavior: auto !important;
+  }
+  .divider-path {
+    stroke-dasharray: none;
+  }
+}
+
+/* Safe area for the mobile action bar */
+.pb-safe {
+  padding-bottom: env(safe-area-inset-bottom, 0px);
+}

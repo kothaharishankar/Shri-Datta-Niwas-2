@@ -1,0 +1,360 @@
+{
+  "common": {
+    "book": "Book / Enquire",
+    "enquire": "Enquire",
+    "call": "Call",
+    "whatsapp": "WhatsApp",
+    "directions": "Directions",
+    "viewAll": "View all",
+    "confirmed": "Confirmed",
+    "toConfirm": "To confirm",
+    "askUs": "Ask us",
+    "close": "Close",
+    "send": "Send enquiry",
+    "sending": "Sending…",
+    "loading": "Loading…"
+  },
+  "nav": {
+    "home": "Home",
+    "rooms": "Rooms",
+    "gallery": "Gallery",
+    "contact": "Contact",
+    "menu": "Open menu",
+    "closeMenu": "Close menu",
+    "language": "Language",
+    "changeLanguage": "Change language",
+    "theme": "Switch theme"
+  },
+  "hero": {
+    "eyebrow": "Maharashtrian (Satarkar family)",
+    "titleLine1": "Shri Datta Niwas 2",
+    "sub": "A quiet, luxurious stay.",
+    "ctaPrimary": "Check availability",
+    "ctaSecondary": "Get directions",
+    "trust": "Lift available · CCTV 24/7",
+    "scroll": "Scroll to look inside"
+  },
+  "trust": {
+    "lift": "Lift to every floor",
+    "cctv": "CCTV, around the clock",
+    "family": "Run by the family who lives here",
+    "rooms": "Rooms available 24/7"
+  },
+  "facilities": {
+    "eyebrow": "What's inside",
+    "title": "What you can",
+    "titleEm": "count on",
+    "intro": "Enjoy easy access to every floor with a lift, plus CCTV monitoring through the night.",
+    "note": "Thoughtful essentials for a comfortable, convenient stay.",
+    "items": {
+      "lift": {
+        "name": "Lift access",
+        "detail": "Every floor, no stairs with your suitcase."
+      },
+      "cctv": {
+        "name": "CCTV 24/7",
+        "detail": "Cameras on the building, through the night."
+      },
+      "ac": {
+        "name": "AC rooms",
+        "detail": "Air-conditioning adds a cool, comfortable touch to your stay."
+      },
+      "bathroom": {
+        "name": "Attached bathrooms",
+        "detail": "Every room has its own attached bathroom for privacy and convenience."
+      },
+      "hotwater": {
+        "name": "Hot water",
+        "detail": "Enjoy hot water to refresh and unwind after a day out."
+      },
+      "wifi": {
+        "name": "Wi-Fi",
+        "detail": "Enjoy strong Wi-Fi throughout your stay."
+      },
+      "parking": {
+        "name": "Parking",
+        "detail": "A spacious parking area makes parking easy during your stay."
+      },
+      "backup": {
+        "name": "Power backup",
+        "detail": "An inverter facility helps keep essential power available during outages."
+      },
+      "water": {
+        "name": "Drinking water",
+        "detail": "Drinking water is available to guests throughout their stay."
+      },
+      "housekeeping": {
+        "name": "Housekeeping",
+        "detail": "Dedicated housekeeping keeps guest rooms clean and comfortable."
+      },
+      "firesafety": {
+        "name": "Fire safety",
+        "detail": "Fire-safety facilities are available 24/7 for guest peace of mind."
+      },
+      "family": {
+        "name": "Family rooms",
+        "detail": "Dedicated rooms are available for families to stay comfortably together."
+      },
+      "groups": {
+        "name": "Group stays",
+        "detail": "Pilgrims and families can stay together as a group in one place."
+      },
+      "food": {
+        "name": "Food nearby",
+        "detail": "Enjoy good food options available close to the stay."
+      }
+    }
+  },
+  "rooms": {
+    "eyebrow": "Rooms",
+    "title": "Find your fit,",
+    "titleEm": "three room types",
+    "intro": "Choose from a single-bed room, a double-bed room, or a dormitory for a comfortable stay. Rooms are available 24/7.",
+    "name": "Room",
+    "nameSage": "Single Bed Room",
+    "nameTerracotta": "Double Bed Room",
+    "nameOchre": "Dormitory",
+    "backHome": "Back to Home",
+    "descSage": "A welcoming single-bed room with comfortable bedding and space to unwind.",
+    "descTerracotta": "A comfortable double-bed room for a restful stay.",
+    "descOchre": "A shared dormitory option for guests travelling together.",
+    "capacityMax": "Up to {{count}} guests",
+    "singleBed": "Single bed",
+    "doubleBed": "Double bed",
+    "dormitory": "Dormitory",
+    "premiumAc": "Premium AC rooms",
+    "backToRooms": "Back to Rooms",
+    "cta": "Enquire about this room",
+    "filters": {
+      "all": "All rooms",
+      "single": "Single bed",
+      "double": "Double bed",
+      "dormitory": "Dormitory",
+      "ac": "Premium AC rooms"
+    },
+    "empty": "No rooms match that filter yet. Call us and we'll find the right fit."
+  },
+  "why": {
+    "eyebrow": "Why stay here",
+    "title": "A home that",
+    "titleEm": "keeps the light on",
+    "blocks": {
+      "family": {
+        "title": "The family is here",
+        "body": "This is a home with rooms, not a corridor with keys. The Satarkars live here and answer the door themselves."
+      },
+      "lift": {
+        "title": "A lift, not a climb",
+        "body": "After a long journey with a suitcase, a lift matters more than a view. Every floor is reachable without stairs."
+      },
+      "honest": {
+        "title": "Honest answers",
+        "body": "If we don't know something, we say so. What's written here is what's in the building — nothing invented."
+      }
+    }
+  },
+  "gallery": {
+    "eyebrow": "Look inside",
+    "title": "The building,",
+    "titleEm": "as it is",
+    "intro": "Explore our rooms and facilities through real photos, and find a comfortable stay for your visit to Pithapuram.",
+    "cta": "Open the gallery",
+    "counter": "{{index}} / {{total}}",
+    "categories": {
+      "all": "Everything",
+      "building": "Building",
+      "rooms": "Rooms",
+      "bathroom": "Bathroom"
+    },
+    "items": {
+      "exterior": "The facade on a recent evening — marigold garlands over the entrance.",
+      "singleRoom": "Single-bed room with patterned bedding and a window.",
+      "sage": "The Sage Room with its green floral bedding.",
+      "terracotta": "The Terracotta Room in warm orange.",
+      "balcony": "Balcony with a glass railing and a view of the neighborhood.",
+      "lift": "Lift access inside the building.",
+      "roomGalleryOne": "A bright room with a double bed, patterned bedding and a window.",
+      "roomGalleryTwo": "Spacious shared room with multiple beds for group stays.",
+      "amber": "The Amber Room, with the AC unit above the window.",
+      "ochre": "The Ochre Room with a wide shuttered window.",
+      "detail": "Inside the Terracotta Room — door, AC and curtain.",
+      "bathroom": "The attached bathroom with geyser and marble-finish tiling."
+    },
+    "lightbox": "Enlarged photograph",
+    "prev": "Previous photograph",
+    "next": "Next photograph"
+  },
+  "location": {
+    "eyebrow": "Location",
+    "title": "A comfortable stay",
+    "titleEm": "in Pithapuram",
+    "addressLabel": "Address",
+    "addressPending": "Sri Padavallabha Temple, near Venu Gopala Swamy Temple, Kalyanamandapam, Pithapuram, Andhra Pradesh 533450.",
+    "contactLabel": "Contact the family",
+    "openMaps": "Open in Google Maps",
+    "getDirections": "Get directions",
+    "mapTitle": "Map showing the location of Shri Datta Niwas 2"
+  },
+  "reviews": {
+    "eyebrow": "Guest reviews",
+    "title": "Rated by",
+    "titleEm": "our guests",
+    "ratingLabel": "Google Maps rating",
+    "ratingAria": "{{rating}} out of 5 stars",
+    "ratingCount": "Based on {{count}} Google reviews",
+    "emptyCta": "Read guest reviews on Google Maps"
+  },
+  "faq": {
+    "eyebrow": "Before you come",
+    "title": "Questions,",
+    "titleEm": "answered plainly",
+    "items": {
+      "checkin": {
+        "q": "What are the check-in and check-out times?",
+        "a": "Times are being confirmed with the family. Tell us when you'll arrive and we'll plan around you."
+      },
+      "id": {
+        "q": "Do I need to bring ID?",
+        "a": "Yes. Carry a government-issued photo ID for every adult guest. This is standard for lodgings in India."
+      },
+      "lift": {
+        "q": "Is there a lift?",
+        "a": "Yes. The building has lift access to every floor."
+      },
+      "security": {
+        "q": "How secure is the building?",
+        "a": "The building runs 24/7 CCTV surveillance. Ask about gate and reception hours when you arrive."
+      },
+      "parking": {
+        "q": "Is parking available?",
+        "a": "Parking is not confirmed yet. Two-wheelers are common here; please call ahead about cars."
+      },
+      "groups": {
+        "q": "Can we book for a group?",
+        "a": "Family and pilgrim groups are welcome. Call ahead so rooms can be held together."
+      }
+    }
+  },
+  "cta": {
+    "title": "A lamp is lit.",
+    "titleEm": "Tell us when.",
+    "body": "Send the dates and we'll reply with what's open, what it costs, and how to reach us.",
+    "primary": "Send an enquiry",
+    "secondary": "Get directions"
+  },
+  "footer": {
+    "tagline": "A calm, family-run stay with lift access and cameras through the night — and someone at the door.",
+    "explore": "Explore",
+    "contact": "Contact",
+    "reach": "Reach us",
+    "privacy": "Privacy",
+    "rights": "© {{year}} Shri Datta Niwas 2 (Satarkar). All rights reserved.",
+    "addressPending": "Full address being added",
+    "phonePending": "Phone being added"
+  },
+  "contact": {
+    "eyebrow": "Enquire",
+    "title": "Tell us about",
+    "titleEm": "your stay",
+    "intro": "Send a few details and we'll reply with availability and rates. No payment is taken here.",
+    "form": {
+      "name": "Your name",
+      "namePlaceholder": "Full name",
+      "phone": "Phone or WhatsApp",
+      "phonePlaceholder": "With country code",
+      "guests": "Guests",
+      "guestsPlaceholder": "Number of guests",
+      "guestsMaxPlaceholder": "Up to {{count}} guests",
+      "message": "Anything we should know?",
+      "messagePlaceholder": "Arrival time, rooms needed, questions…",
+      "submit": "Send enquiry",
+      "sending": "Sending…",
+      "honeypot": "Leave this field empty",
+      "errors": {
+        "name": "Please tell us your name.",
+        "phone": "Enter a phone number we can reach you on.",
+        "guests": "Tell us how many guests.",
+        "capacity": "This room accommodates up to {{count}} guests.",
+        "send": "We couldn't send your enquiry. Please try again or call us instead."
+      }
+    },
+    "successTitle": "Thank you — it's with us.",
+    "successBody": "We'll reply as soon as we can. If it's urgent, call the lodge directly.",
+    "whatsappReadyTitle": "Your enquiry is ready",
+    "whatsappReadyBody": "Your details are in a WhatsApp message draft. Review it and tap send to contact the lodge.",
+    "openWhatsApp": "Review and send on WhatsApp",
+    "whatsappFallback": "WhatsApp opens with your name, phone, room and guest details ready to send.",
+    "bookingMessage": {
+      "title": "Booking enquiry",
+      "room": "Room type",
+      "name": "Name",
+      "phone": "Phone number",
+      "guests": "Number of guests",
+      "notes": "Additional details",
+      "language": "Language"
+    },
+    "missingForm": "The enquiry form isn't connected yet. WhatsApp or call us and we'll take your booking by message.",
+    "callPrompt": "Call the lodge",
+    "whatsappPrompt": "Message on WhatsApp",
+    "sideTitle": "Other ways to reach us",
+    "sideBody": "Phone, WhatsApp and directions are below. During busy periods, a call is fastest.",
+    "sideAddress": "Location",
+    "sideHours": "Reception hours"
+  },
+  "privacy": {
+    "title": "Privacy",
+    "updated": "Last updated {{date}}",
+    "intro": "This site is built to collect as little as possible. Here is exactly what happens to your information.",
+    "sections": {
+      "forms": {
+        "title": "Enquiry form",
+        "body": "Your enquiry opens as a prefilled WhatsApp draft addressed to the lodge; review it and choose whether to send. If WhatsApp is unavailable, the connected enquiry form may use Formspree. We use submitted details only to respond and do not sell them."
+      },
+      "analytics": {
+        "title": "Analytics",
+        "body": "Analytics is off by default, and the site sets no cookies unless analytics is switched on. If it is enabled, the provider is named in the site's configuration."
+      },
+      "maps": {
+        "title": "Maps",
+        "body": "The map is an embedded Google Maps frame. Google may set its own cookies when it loads. Opening the map in a new tab is also available."
+      },
+      "contact": {
+        "title": "Contacting us",
+        "body": "To ask about or remove your data, contact the lodge directly using the details on the Contact page."
+      }
+    },
+    "back": "Back to home"
+  },
+  "notFound": {
+    "code": "404",
+    "title": "This door doesn't open.",
+    "body": "The page you're looking for isn't here. The lodge still is — head back home.",
+    "home": "Back to home"
+  },
+  "seo": {
+    "home": {
+      "title": "Shri Datta Niwas 2 (Satarkar) — a calm, family-run stay",
+      "description": "A quiet, family-run lodging with lift access to every floor and 24/7 CCTV. Enquire about rooms and directions."
+    },
+    "rooms": {
+      "title": "Rooms — Shri Datta Niwas 2 (Satarkar)",
+      "description": "Three room types: a single-bed room, a double-bed room and a dormitory. Ask us about rates."
+    },
+    "gallery": {
+      "title": "Gallery — Shri Datta Niwas 2 (Satarkar)",
+      "description": "Real photographs of the building and rooms at Shri Datta Niwas 2."
+    },
+    "contact": {
+      "title": "Contact — Shri Datta Niwas 2 (Satarkar)",
+      "description": "Send an enquiry, get directions, or find the lodge on Google Maps."
+    },
+    "privacy": {
+      "title": "Privacy — Shri Datta Niwas 2 (Satarkar)",
+      "description": "How this site handles your information: form data, maps and analytics."
+    },
+    "notFound": {
+      "title": "Page not found — Shri Datta Niwas 2 (Satarkar)",
+      "description": "That page isn't here. Head back to the lodge."
+    }
+  }
+}

@@ -1,0 +1,19 @@
+{
+  "name": "Shri Datta Niwas 2 (Satarkar)",
+  "short_name": "Datta Niwas 2",
+  "description": "A calm, family-run lodging with lift access and 24/7 CCTV.",
+  "start_url": "/",
+  "scope": "/",
+  "display": "standalone",
+  "background_color": "#FBF6EA",
+  "theme_color": "#FBF6EA",
+  "orientation": "portrait-primary",
+  "icons": [
+    {
+      "src": "/logo-icon.jpg",
+      "sizes": "512x512",
+      "type": "image/jpeg",
+      "purpose": "any"
+    }
+  ]
+}
